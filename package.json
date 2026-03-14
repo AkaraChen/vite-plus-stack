@@ -1,0 +1,33 @@
+{
+  "name": "vite-plus-stack",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "type": "module",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "check-types": "turbo check-types",
+    "dev:web": "turbo -F web dev",
+    "db:push": "turbo -F @vite-plus-stack/db db:push",
+    "db:studio": "turbo -F @vite-plus-stack/db db:studio",
+    "db:generate": "turbo -F @vite-plus-stack/db db:generate",
+    "db:migrate": "turbo -F @vite-plus-stack/db db:migrate",
+    "db:local": "turbo -F @vite-plus-stack/db db:local"
+  },
+  "dependencies": {
+    "@vite-plus-stack/env": "workspace:*",
+    "dotenv": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@types/node": "catalog:",
+    "@vite-plus-stack/config": "workspace:*",
+    "lefthook": "^2.0.13",
+    "turbo": "^2.8.12",
+    "typescript": "^5"
+  },
+  "packageManager": "pnpm@10.30.1"
+}

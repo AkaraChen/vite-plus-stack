@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "base-lyra",
+  "rsc": false,
+  "tsx": true,
+  "tailwind": {
+    "config": "",
+    "css": "src/styles/globals.css",
+    "baseColor": "neutral",
+    "cssVariables": true,
+    "prefix": ""
+  },
+  "iconLibrary": "lucide",
+  "aliases": {
+    "components": "@vite-plus-stack/ui/components",
+    "utils": "@vite-plus-stack/ui/lib/utils",
+    "hooks": "@vite-plus-stack/ui/hooks",
+    "lib": "@vite-plus-stack/ui/lib",
+    "ui": "@vite-plus-stack/ui/components"
+  },
+  "menuColor": "default",
+  "menuAccent": "subtle",
+  "registries": {}
+}

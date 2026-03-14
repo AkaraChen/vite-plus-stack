@@ -1,0 +1,3 @@
+{
+  "extends": "@vite-plus-stack/config/tsconfig.base.json"
+}
