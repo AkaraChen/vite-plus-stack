@@ -3,9 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "vite build",
-    "serve": "vite preview",
-    "dev": "vite dev"
+    "build": "vp build",
+    "serve": "vp preview",
+    "dev": "vp dev"
   },
   "dependencies": {
     "@libsql/client": "catalog:",
@@ -48,7 +48,8 @@
     "@vitejs/plugin-react": "^5.0.4",
     "jsdom": "^26.0.0",
     "typescript": "^5",
-    "vite": "^7.0.2",
+    "vite": "catalog:",
+    "vite-plus": "catalog:",
     "web-vitals": "^5.0.3"
   }
 }

@@ -27,7 +27,8 @@
     "@vite-plus-stack/config": "workspace:*",
     "lefthook": "^2.0.13",
     "turbo": "^2.8.12",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vite-plus": "catalog:"
   },
   "packageManager": "pnpm@10.30.1"
 }
