@@ -34,7 +34,6 @@
     "react-dom": "catalog:",
     "sonner": "catalog:",
     "tailwindcss": "catalog:",
-    "vite-tsconfig-paths": "^5.1.4",
     "zod": "catalog:"
   },
   "devDependencies": {
