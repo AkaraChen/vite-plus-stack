@@ -5,6 +5,6 @@ pre-commit:
   parallel: true
   jobs:
     - name: check
-      run: vp check
+      run: vp check {staged_files}
     - name: test
       run: vp test
